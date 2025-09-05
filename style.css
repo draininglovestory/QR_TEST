@@ -1,0 +1,22 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+    background-color: #D5E1EF;
+    font-family: "Outfit", sans-serif;
+    text-align: center;
+    align-items: center;
+    display: grid;
+    min-height: 100vh;
+    margin: 0;
+}
+
+p{
+  font-size: 15px
+}
+
+.card {
+  background-color: white;
+  height: 500px;
+  width: 320px;
+}
