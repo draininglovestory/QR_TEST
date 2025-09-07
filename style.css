@@ -1,33 +1,37 @@
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
 
-body{
-    background-color: #D5E1EF;
-    font-family: "Outfit", sans-serif;
-    text-align: center;
-    place-items: center;
-    display: grid;
-    min-height: 100vh;
-    margin: 0;
+body {
+  background-color: #d5e1ef;
+  font-family: "Outfit", sans-serif;
+  text-align: center;
+  place-items: center;
+  display: grid;
+  min-height: 100vh;
+  margin: 0;
 }
 
 .bigtext {
-  color:hsl(218, 44%, 22%);
+  color: hsl(218, 44%, 22%);
   font-weight: 700;
   font-size: 22px;
   line-height: 120%;
   margin: 16px;
   margin-top: 8px;
-  
 }
 
 .smalltext {
- font-size: 15px;
- font-weight: 400;
- color: hsl(216, 15%, 48%);
- margin: 16px;
- line-height: 140%;
- letter-spacing: 0.2px;
+  font-size: 15px;
+  font-weight: 400;
+  color: hsl(216, 15%, 48%);
+  margin: 16px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
 }
 
 .card {
@@ -36,13 +40,12 @@ body{
   width: 320px;
   margin: 16px;
   border-radius: 20px;
-  box-shadow: -4px 10px 15px 3px rgba(0,0,0, 0.15);
-  
+  box-shadow: -4px 10px 15px 3px rgba(0, 0, 0, 0.15);
 }
 img {
   height: 288px;
   height: 288px;
   margin-top: 16px;
   margin-bottom: 16px;
-  border-radius: 10px ;
+  border-radius: 10px;
 }
