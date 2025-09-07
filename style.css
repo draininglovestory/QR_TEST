@@ -5,18 +5,44 @@ body{
     background-color: #D5E1EF;
     font-family: "Outfit", sans-serif;
     text-align: center;
-    align-items: center;
+    place-items: center;
     display: grid;
     min-height: 100vh;
     margin: 0;
 }
 
-p{
-  font-size: 15px
+.bigtext {
+  color:hsl(218, 44%, 22%);
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 120%;
+  margin: 16px;
+  margin-top: 8px;
+  
+}
+
+.smalltext {
+ font-size: 15px;
+ font-weight: 400;
+ color: hsl(216, 15%, 48%);
+ margin: 16px;
+ line-height: 140%;
+ letter-spacing: 0.2px;
 }
 
 .card {
   background-color: white;
   height: 500px;
   width: 320px;
+  margin: 16px;
+  border-radius: 20px;
+  box-shadow: -4px 10px 15px 3px rgba(0,0,0, 0.15);
+  
+}
+img {
+  height: 288px;
+  height: 288px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  border-radius: 10px ;
 }
